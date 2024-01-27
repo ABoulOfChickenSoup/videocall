@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+video {
+    width: 320px;
+    height: 240px;
+    background-color: #f0f0f0;
+    margin: 5px;
+}
+
+.controls button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.controls button:disabled {
+    background-color: #999;
+    cursor: not-allowed;
+}
+
